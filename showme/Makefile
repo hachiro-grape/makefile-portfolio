@@ -2,8 +2,6 @@
 ## Showme
 SHELL := /bin/bash
 
-include ../usage/Makefile
-
 ##
 ## Target
 .PHONY: showme
