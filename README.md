@@ -5,7 +5,7 @@ Make? Sure!
 - [showme](https://github.com/hachiro-grape/makefile-portfolio/tree/main/showme)
 - [docbuild]
 - web
-  - [project-init]
+  - [webapp-init]
   - [htmlbuild]
   - [jsbuild]
   - [cssbuild]
