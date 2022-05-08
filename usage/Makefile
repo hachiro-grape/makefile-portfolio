@@ -1,6 +1,6 @@
+SHELL := /bin/bash
 ##
 ## Usage
-SHELL := /bin/bash
 
 ##
 ## Target
