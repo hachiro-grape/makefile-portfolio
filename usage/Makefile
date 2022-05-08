@@ -1,6 +1,5 @@
 ##
 ## Usage
-
 SHELL := /bin/bash
 
 ##
@@ -8,10 +7,6 @@ SHELL := /bin/bash
 .PHONY: usage
 usage: ### is automatically generated from comments.
 	@$(GREP) -h '#[#]' $(MAKEFILE_LIST) | $(SED) -e 's/\(^.*\)\( \)\(#[#]\+\)\(.*$$\)/\3\2\1\4/' -e 's/#[#]//' -e 's/#/$(INDENT_CHAR)/g'
-
-.PHONY: showme
-showme: ### makes this Makefile easy to see.
-	@$(GREP) -vh '^\s*#' $(MAKEFILE_LIST)
 
 ##
 ## Note
@@ -26,6 +21,8 @@ INDENT_CHAR := '\ ' ##### space is default.
 
 ##
 ### > Single＃ is not included in usage.
+# usage? Too bad...
+
 # Command variables
 GREP := grep
 SED := sed
