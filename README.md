@@ -1,4 +1,11 @@
 # makefile-portfolio
-Makefileを置く場所です
+Make? Sure!
 
 - [usage](https://github.com/hachiro-grape/makefile-portfolio/tree/main/usage)
+- [showme]
+- [docbuild]
+- [web]
+  - [htmlbuild]
+  - [jsbuild]
+  - [cssbuild]
+- [gobuild]
