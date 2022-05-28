@@ -1,0 +1,8 @@
+mkdir src/
+mkdir src/images/
+mkdir src/scripts/
+mkdir src/styles/
+touch src/favicon.ico
+touch src/index.html
+touch src/humans.txt
+touch src/robots.txt

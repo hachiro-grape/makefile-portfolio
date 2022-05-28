@@ -1,6 +1,7 @@
-##
-## Showme
 SHELL := /bin/bash
+##
+## -----:-----:-----:-----:-----:-----:-----:-----:
+## Showme
 
 ##
 ## Target
@@ -16,4 +17,4 @@ GREP := grep
 ##
 ### > This Makefile works with GNU commands.
 ###   You can redefine command variables by including the following file.
--include cmdredef.mk #####
+-include ../cmdredef.mk #####

@@ -1,5 +1,6 @@
 SHELL := /bin/bash
 ##
+## -----:-----:-----:-----:-----:-----:-----:-----:
 ## Usage
 
 ##
@@ -30,4 +31,4 @@ SED := sed
 ##
 ### > This Makefile works with GNU commands.
 ###   You can redefine command variables by including the following file.
--include cmdredef.mk #####
+-include ../cmdredef.mk #####
